@@ -1,0 +1,28 @@
+# Build outputs
+bin/
+obj/
+Builds/*.exe
+Builds/*.pdb
+*.exe
+*.pdb
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Temporary files
+*.tmp
+temp_*.ps1
+build_log.txt
+discord_error.log
+error.log
+
+# Config files with sensitive data
+builder_config.json
+
+# Windows
+Thumbs.db
+Desktop.ini
